@@ -12,6 +12,7 @@ With personal sprites/scripts/modifications.
 
 ### 17/02/2025
 Done: sprites, basic pipe generation, bounce animation
+Added minor bird rotation and collisions. 
 
 ### 17/02/2025
 First upload

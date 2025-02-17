@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class BirdScript : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class BirdScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) == true)
         {
             myRigidbody.linearVelocity = Vector2.up * Flapstrength;
+            myRigidbody.rotation = 20;
+        }
+        else if (Input.GetKeyUp(KeyCode.Space) == true)
+        {
+            myRigidbody.rotation = 0;
         }
         
     }
